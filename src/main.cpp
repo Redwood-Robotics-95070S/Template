@@ -3,7 +3,7 @@
 /*    Module:       main.cpp                                                  */
 /*    Author:       C:\Users\coole                                            */
 /*    Created:      Thu Feb 23 2023                                           */
-/*    Description:  V5 project                                                */
+/*    Description:  goofy                                                     */
 /*                                                                            */
 /*----------------------------------------------------------------------------*/
 
