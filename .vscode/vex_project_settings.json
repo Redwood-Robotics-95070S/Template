@@ -1,0 +1,18 @@
+{
+	"extension": {
+		"version": "0.3.0",
+		"json": 1
+	},
+	"project": {
+		"name": "Template",
+		"description": "template for goofy bobot",
+		"creationDate": "2/23/2023, 2:02:11 PM",
+		"platform": "V5",
+		"language": "cpp",
+		"slot": 1,
+		"sdkVersion": "V5_20220726_10_00_00",
+		"cpp": {
+			"includePath": []
+		}
+	}
+}
