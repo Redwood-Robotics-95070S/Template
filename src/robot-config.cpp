@@ -13,12 +13,12 @@ motor fl = motor(PORT1, ratio18_1, false);
 motor fr = motor(PORT2, ratio18_1, true);
 motor bl = motor(PORT3, ratio18_1, false);
 motor br = motor(PORT4, ratio18_1, true);
-gps GPS = gps(PORT18, 0.00, 0.00, mm, 180);
-inertial Inertial = inertial(PORT21);
-optical Optical = optical(PORT19);
+gps GPS = gps(PORT6, 0.00, 0.00, mm, 180);
+inertial Inertial = inertial(PORT7);
+optical Optical = optical(PORT5);
 /*vex-vision-config:begin*/
 signature Vision20__SIG_1 = signature (1, 0, 0, 0, 0, 0, 0, 3, 0);
-vision Vision = vision (PORT20, 50, Vision20__SIG_1);
+vision Vision = vision (PORT8, 50, Vision20__SIG_1);
 /*vex-vision-config:end*/
 
 // VEXcode generated functions
