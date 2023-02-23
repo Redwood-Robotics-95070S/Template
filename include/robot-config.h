@@ -10,6 +10,7 @@ extern motor fl;
 extern motor fr;
 extern motor bl;
 extern motor br;
+extern motor roller;
 extern gps GPS;
 extern inertial Inertial21;
 extern optical Optical19;
