@@ -11,14 +11,15 @@
 // Robot Configuration:
 // [Name]               [Type]        [Port(s)]
 // Controller1          controller                    
-// fl               motor             1  
-// fr               motor             2    
-// bl               motor             3    
-// br               motor             4              
+// fl                   motor         1  
+// fr                   motor         2    
+// bl                   motor         3    
+// br                   motor         4              
 // GPS18                gps           6            
 // Inertial21           inertial      7             
 // Optical19            optical       5              
-// Vision20             vision        8              
+// Vision20             vision        8 
+// Roller               motor         9             
 // ---- END VEXCODE CONFIGURED DEVICES ----
 
 #include "vex.h"
