@@ -6,8 +6,11 @@ using signature = vision::signature;
 
 // VEXcode devices
 extern controller Controller1;
-extern motor Motor1;
-extern gps GPS18;
+extern motor fl;
+extern motor fr;
+extern motor bl;
+extern motor br;
+extern gps GPS;
 extern inertial Inertial21;
 extern optical Optical19;
 extern signature Vision20__SIG_1;
