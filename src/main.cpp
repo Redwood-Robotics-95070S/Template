@@ -1,28 +1,29 @@
 /*----------------------------------------------------------------------------*/
 /*                                                                            */
 /*    Module:       main.cpp                                                  */
-/*    Author:       coole                                                     */
-/*    Created:      2/23/2023, 2:02:11 PM                                     */
+/*    Author:       C:\Users\coole                                            */
+/*    Created:      Thu Feb 23 2023                                           */
 /*    Description:  V5 project                                                */
 /*                                                                            */
 /*----------------------------------------------------------------------------*/
+
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// Controller1          controller                    
+// Motor1               motor         1               
+// GPS18                gps           18              
+// Inertial21           inertial      21              
+// Optical19            optical       19              
+// Vision20             vision        20              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+
 #include "vex.h"
 
 using namespace vex;
 
-// A global instance of vex::brain used for printing to the V5 brain screen
-vex::brain       Brain;
-
-// define your global instances of motors and other devices here
-
-
 int main() {
-
-    Brain.Screen.printAt( 10, 50, "Hello V5" );
-   
-    while(1) {
-        
-        // Allow other tasks to run
-        this_thread::sleep_for(10);
-    }
+  // Initializing Robot Configuration. DO NOT REMOVE!
+  vexcodeInit();
+  
 }
