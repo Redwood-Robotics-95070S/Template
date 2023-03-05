@@ -12,9 +12,9 @@
 // [Name]               [Type]        [Port(s)]
 // Controller1          controller                    
 // fl                   motor         1  
-// fr                   motor         2    
-// bl                   motor         3    
-// br                   motor         4              
+// fr                   motor         7    
+// bl                   motor         10    
+// br                   motor         3              
 // GPS18                gps           6            
 // Inertial21           inertial      7             
 // Optical19            optical       5              
