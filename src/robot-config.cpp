@@ -9,18 +9,12 @@ brain  Brain;
 
 // VEXcode device constructors
 controller Controller1 = controller(primary);
-motor fl = motor(PORT1, ratio18_1, false);
-motor fr = motor(PORT10, ratio18_1, true);
-motor bl = motor(PORT10, ratio18_1, false);
-motor br = motor(PORT3, ratio18_1, true);
-motor roller = motor(PORT9, ratio18_1, false);
-gps GPS = gps(PORT6, 0.00, 0.00, mm, 180);
-inertial Inertial = inertial(PORT7);
-optical Optical = optical(PORT5);
-/*vex-vision-config:begin*/
-signature Vision20__SIG_1 = signature (1, 0, 0, 0, 0, 0, 0, 3, 0);
-vision Vision = vision (PORT8, 50, Vision20__SIG_1);
-/*vex-vision-config:end*/
+motor fl = motor(PORT1, ratio18_1, true);
+motor fr = motor(PORT7, ratio18_1, false);
+motor bl = motor(PORT10, ratio18_1, true);
+motor br = motor(PORT3, ratio18_1, false);
+gps GPST = gps(PORT13, 0.00, 0.00, mm, 180);
+inertial Inertial = inertial(PORT14);
 
 // VEXcode generated functions
 // define variable for remote controller enable/disable
