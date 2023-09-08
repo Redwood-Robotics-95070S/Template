@@ -1,3 +1,16 @@
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// Controller1          controller                    
+// GPST                 gps           13              
+// fl                   motor         1               
+// fr                   motor         7               
+// bl                   motor         10              
+// br                   motor         3               
+// ---- END VEXCODE CONFIGURED DEVICES ----
+
+
+
 #include "vex.h"
 #include "autonfunctions.hpp"
 using namespace vex;
